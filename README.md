@@ -1,6 +1,7 @@
 
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/connector-telephony&target_branch=14.0)
-[![Build Status](https://travis-ci.com/OCA/connector-telephony.svg?branch=14.0)](https://travis-ci.com/OCA/connector-telephony)
+[![Pre-commit Status](https://github.com/OCA/connector-telephony/actions/workflows/pre-commit.yml/badge.svg?branch=14.0)](https://github.com/OCA/connector-telephony/actions/workflows/pre-commit.yml?query=branch%3A14.0)
+[![Build Status](https://github.com/OCA/connector-telephony/actions/workflows/test.yml/badge.svg?branch=14.0)](https://github.com/OCA/connector-telephony/actions/workflows/test.yml?query=branch%3A14.0)
 [![codecov](https://codecov.io/gh/OCA/connector-telephony/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/connector-telephony)
 [![Translation Status](https://translation.odoo-community.org/widgets/connector-telephony-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/connector-telephony-14-0/?utm_source=widget)
 
@@ -8,7 +9,7 @@
 
 # connector-telephony
 
-TODO: add repo description.
+Tools for telephony services and phone number rendering
 
 <!-- /!\ do not modify below this line -->
 
@@ -20,15 +21,16 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[asterisk_click2dial](asterisk_click2dial/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Asterisk-Odoo connector
-[base_phone](base_phone/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Validate phone numbers
+[asterisk_click2dial](asterisk_click2dial/) | 14.0.2.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Asterisk-Odoo connector
+[base_phone](base_phone/) | 14.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Validate phone numbers
+[connector_voicent](connector_voicent/) | 14.0.1.0.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Connect Odoo with Voicent
 [crm_phone](crm_phone/) | 14.0.1.1.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Improve phone support in CRM
 [event_phone](event_phone/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Validate phone numbers in Events
 [hr_phone](hr_phone/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Validate phone numbers in HR
 [hr_recruitment_phone](hr_recruitment_phone/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Validate phone numbers in HR Recruitment
 [sms_no_alter_body](sms_no_alter_body/) | 14.0.1.0.0 |  | Avoid sms formatting between html and text
 [sms_no_automatic_delete](sms_no_automatic_delete/) | 14.0.1.1.0 |  | Avoid automatic delete of sended sms
-[sms_ovh_http](sms_ovh_http/) | 14.0.1.0.1 | [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Send sms using ovh http API
+[sms_ovh_http](sms_ovh_http/) | 14.0.1.0.3 | [![sebastienbeau](https://github.com/sebastienbeau.png?size=30px)](https://github.com/sebastienbeau) | Send sms using ovh http API
 
 [//]: # (end addons)
 
